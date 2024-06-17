@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+body {
+  position: relative;
+}
+ 
+
+header {
+  background-color: black;
+  height: 35px;
+  padding: 20px;
+  width: 100%;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: yellow;
+}
+
+.card {
+  border: solid back 1px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  width: 300px;
+  margin: 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  }
+
+.card_text {
+  text-align: center;
+  padding: 15px;
+  }
+
+.card img{
+  border-radius: 50%;
+  width: 220px;
+  height: 200px;
+
+}
+
+ul {
+  list-style: none;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+
+}
+
+.card.DAE img {
+  border: solid .5px black;
+}
+
+main {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  margin: 30px 0;
+  width: 100%;
+}
+
+footer {
+  background-color: black;
+  width: 100%;
+  height: 35px;
+  padding: 50px;
+  color: white;
+
+/*   position:absolute; */
+  bottom:0;
+}
+
+.card { transition: all .2s ease-in-out; }
+.card:hover { transform: scale(1.1); }
+
+/* ========== TABLET ================== */
+@media (max-width: 768px) {
+  body{
+  background-color: red;
+  }
+  ul{
+  flex-direction: column;
+  }
+  main{
+    flex-direction:column;
+  }
+  .card.DAE{
+    display: none;
+  }
+/* ========== PHONES ================== */
+
+@media (max-width: 425px)  {
+body{
+  background-color: lightblue;
+}
+ul{
+  flex-direction: column;
+}
+main{
+flex-direction: column;
+}
+.card.DAE{
+  display: none;
+}
