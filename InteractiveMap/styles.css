@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.Title {
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px;
+  background-color: beige;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 99;
+}
+
+.navbar {
+  width: 25%;
+  height: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-end;
+}
