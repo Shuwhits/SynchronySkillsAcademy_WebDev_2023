@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Intro-To-Images-&-HTML-Structure</title>
+    <link href="style.css" rel="stylesheet" type="text/css" /> <!-- This line of code is where we import your CSS -->
+  </head>
+  <!-- DONT WORRY ABOUT WHATS UP HERE -->
+  <!-- -------------------------------------------------------------- -->
+  
+  <!-- WELCOME !! -->
+  <!-- BY NOW YOU SHOULD HAVE AN IDEA OF WHERE TO GO FOR HELP -->
+  <!-- REMEMBER YOUR RESOURCES FOR PREVIOUS LEVELS -->
+  <!-- Make sure you follow the framework: -->
+
+  <!-- 1. Can't Figure it out? -> Google It! -->
+  <!-- 2. Still can't Figure it out? -> Ask a friend!  -->
+  <!-- 3. You both can't figure it out? -> Google it together! -->
+  <!-- GOODLUCK AND HAPPY CODING :) -->
+  <!-- ---------------------------------------------------------------------------------------------- -->
+    <h1>
+      Intro to Images & HTML Structure
+    </h1>
+ 
+    <!-- IGNORE THIS AND CONTINUE CODING -->
+      <hr>
+    <!-- IGNORE THIS AND CONTINUE CODING -->
+
+    <!-- BEGIN CODING BELOW -->
+      <!--  EXERCISE 1️⃣❗️ -->
+     
+        <!--  EXERCISE 2️⃣❗️ -->
+        
+        <!-- STEP 1️⃣ -->
+        
+        <!-- STEP 2️⃣ -->
+        
+        <!-- STEP 3️⃣ -->
+        <!--  EXERCISE 3️⃣❗️ -->
+
+  
+  <!-- ** BONUS ** -->
+  <!-- IF YOU HAVE FINISHED EARLY, TRY DOING TODAYS BONUS !! -->
+
+  <!-- Today's bonus is to go back into your code and see if you can add a video from youtube and have it autoplay with no sound -->
+  <!--  You can place this inside of the div tag you created in Exercise 3️⃣ Step 3️⃣ -->
+  
+</html>
+<body>
+ <h>
+  <h2> Lorum Ipsum</h2> 
+ </h>
+  <main>
+<img 
+src="https://www.seriouseats.com/thmb/tuMCogfAOy2zNdVqE7ydUwuru9Q=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/easy-vegetable-fried-rice-recipe-hero-2-fed2a62b8bce4c51b945d9c24c2edb68.jpg">   
+  </main>  
+   <footer>
+    <p>Lorum Ipsum</p>
+  </footer>
+</body>
