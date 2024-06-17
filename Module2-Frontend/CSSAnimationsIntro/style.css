@@ -1,0 +1,89 @@
+/* Demonstrate
+- keyframes
+- transitions
+- transform
+  - 3D
+- scale
+
+==== Look up these properties to see what they do
+
+Animation
+@keyframes
+animation-name
+animation-duration
+animation-delay
+animation-iteration-count
+animation-direction
+animation-timing-function
+animation-fill-mode
+animation
+ */
+
+
+/*
+✨ HIT THE RUN BUTTON ✨
+
+Creating your own animation starts with the @keyframes keyword followed by the name of the animation
+
+from - starting point of the animation
+to - end point of the animation
+
+You can also sent percentages instead
+
+*/
+
+/* This animation is called spin */
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+      transform: rotate(360deg);
+  }
+}
+
+/* The class I gave the div element is "spin-around" */
+.spin-around {
+
+/*   short hand of writing everything in one line */
+  animation: spin 3s linear infinite;
+  
+  /* How long the animation takes
+   animation-duration: 6s;
+*/
+
+}
+
+
+
+
+
+
+
+
+/* ====================================
+    Another example here for the div
+====================================== */
+/* .div {
+  height: 100px;
+  width: 300px;
+  border: solid 1px black;
+  margin-top: 200px;
+}
+
+@keyframes color-change {
+  from{
+    background-color: red;
+  }
+  to {
+    background-color: blue;
+  }
+}
+
+
+.div {
+  animation: color-change;
+  transition-duration: 4s;
+  transition-timing-function: linear;
+
+} */
