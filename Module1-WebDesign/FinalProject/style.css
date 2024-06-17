@@ -1,0 +1,151 @@
+o* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  height: 100%;
+  width: 100%;
+}
+body {
+   position: relative;
+  min-height: 100vh;
+}
+
+header{
+  width: 100%
+}
+ul{
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+}
+
+a{
+  color: Black;
+  text-decoration: none;
+  font-size: 50px;
+}
+
+a:hover{
+  color:white;
+}
+.FI{
+  margin-top: 100px;
+  width: 100;
+  display: flex;
+justify-content: space-evenly;
+  list-style: none;
+}
+
+h1 {
+  width:100%;
+  text-align: center;
+  height: 60px;
+   }
+
+.SM{
+  align-items: flex-start;
+}
+
+.bar{
+  width: 100%;
+  border-style: solid;
+  border: 5px outset black;
+  background-color: white; 
+  text-align: center;
+
+}
+
+nav{
+  display:flex;
+  justify-content: space-evenly;
+  width:100:
+}
+
+footer{
+  width:100%;
+  position:absolute;
+  bottom: 0px;
+  display:flex;
+  justify-content:center;
+  align-items: flex-end;
+  border-style:solid;
+border: 5px outset black;
+  background-color: white;
+  padding-bottom: none;
+  padding-top: none;
+}
+#page-container {
+  position: relative;
+  min-height: 100vh;
+}
+#content-wrap {
+  padding-bottom: 2.5rem;    /* Footer height */
+}
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;            /* Footer height */
+}
+.back{
+  font-size: 20;
+  font-family: Times 'Times New Roman', Times, serif;
+position: absolute;
+display: flex;
+justify-content: flex-start;
+align-items: flex-end;
+bottom: 0;
+}
+
+p{
+display:flex;
+align-items: center;
+color: black;
+text-indent: 30px;
+font-size: 200%;
+}
+  
+/* ===========MEDIA QUERIES===========>
+/* TABLET */
+@media (max-width: 768px){
+/*Makes the inventors column*/
+  .FI{
+  flex-direction: column;
+  align-items: center;
+}
+/*Makes the nav column*/
+ul{
+  padding-bottom: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+/*increase the size of title div*/
+.bar{
+  height:120px;
+}
+/*Makes space between button and text*/
+  p{
+    padding-bottom: 25%;
+  }
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+      transform: rotate(360deg);
+  }
+}
+.spin{
+    animation: spin 6s linear infinite;
+}
+.scale {
+      transition: all .2s ease-in-out;
+}
+.scale:hover {
+      box-shadow: 10px 5px 15px blue;   
+      transform: scale(1.1);
