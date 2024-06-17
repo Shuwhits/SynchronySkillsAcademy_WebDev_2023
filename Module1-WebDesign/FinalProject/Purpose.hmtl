@@ -1,0 +1,33 @@
+<!-- IMPORTANT LINKING -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="style.css" rel="stylesheet" type="text/css">
+  <title>Document</title>
+<!-- TITLE -->
+  <body>
+     <div class="title">
+    <h1>
+      <font size=20>Purpose</font>
+    </h1>
+  </div>
+<!--     BACKGROUND -->
+  <div class="BG">
+    <style>
+      body {
+        background-image: url('https://blog.f1000.com/wp-content/uploads/2021/05/F1R-Blog-OPB-Image-Artboard_v1-002.jpg');
+      }
+    </style>
+  </div>
+  <a href=index.html class="back">Back</a>
+    <main>
+<!--       TEXT -->
+      <p>
+        Inventions, such as new tools, devices, processes, and medicines, have provided significant benefits to society. Inventions help people around the world live longer, healthier, and more-productive lives and provide new ways to build, move, communicate, heal, learn, and play. In some cases, inventions not only provided the scientific and technological foundation for new companies but were revolutionary ideas that spawned entirely new industries
+      </p>
+    </main>
+  </body>
