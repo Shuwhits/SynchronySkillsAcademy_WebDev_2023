@@ -7,5 +7,5 @@ Instructors: Mohameth Seck, Diego Tardio
 
 All DAE amd Synchrony Staff
 
-(Some files may be missing, this respository only has files I currently have access to)
+❗ ❗ ❗ (Some files may be missing, incorrect, or poorly coded.)❗ ❗ ❗ 
 
