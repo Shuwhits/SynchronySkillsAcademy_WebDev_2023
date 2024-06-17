@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <style>
+
+    .card {
+      border: solid black 3px;
+      width: 250px;
+      height: 70px;
+      padding: 20px;
+      margin: 25px;
+    }
+
+    
+    .scale {
+    
+      transition: all .2s ease-in-out;
+/*       transition-delay: 3s;
+ */
+    }
+
+    .scale:hover {
+      box-shadow: 10px 5px 15px red;   
+      transform: scale(1.1);
+
+    }
+
+    .translate {
+        transform: translate(130px, 10px);
+    }
+
+    .rotate {
+      transform: rotate(-66deg);
+      margin-top: 100px; 
+    }
+
+    
+  </style>
+</head>
+
+<body>
+
+  <h1>Intro to CSS Animations</h1>
+ 
+<!-- Transform with Scale and transition -->
+  <div class="card scale">
+    Hover over me (using scale and transition)
+  </div>
+<hr>
+  <!-- Transform with translate -->
+  <div class="card translate">
+    Translate
+  </div>
+<hr>
+  <!-- Transform with rotate (negative will rotate counter clockwise) -->
+
+  <div class="card rotate">
+    Rotate
+  </div>
+
+<!--   
+  Google and search for other transform values
+  One resources listed below 👇 
+  https://www.w3schools.com/css/css3_2dtransforms.asp
+  Look up CSS 3D Transforms 👀
+   -->
+
+  <div style="margin-top: 230px;">
+  <h1>Keyframes</h1>
+  <div class="card spin-around">
+    Keyframe example
+  </div>
+  </div>
+
+<!--   Keyframe Resources -->
+<!--   CSS Tricks
+  
+  https://css-tricks.com/snippets/css/keyframe-animation-syntax/ 
+  
+https://css-tricks.com/almanac/properties/a/animation/
+  
+  -->
+  
+  <script src="script.js"></script>
+</body>
+
+</html>
