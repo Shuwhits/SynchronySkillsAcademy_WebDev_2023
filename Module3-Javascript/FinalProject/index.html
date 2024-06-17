@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+  <body style="background-color:#080808;">
+    
+  <div class="Title"> 
+  <h1>Password Generator</h1>
+  </div>
+    
+<div class= "hb"> 
+  <img src ="hb.jpg" width = "100%" height = "450">
+</div>
+    
+<div class ="GP">
+  
+  <button class="button" id="buttonN" onclick="document.getElementById('pw').innerHTML = generatePasswordN(10)"> Click on me if you want a password with just numbers!</button>
+  
+  <button class="button" id="buttonL" onclick="document.getElementById('pw').innerHTML = generatePasswordL(10)"> Click on me if you want a password with just letters!</button>
+
+  <button class="button" onclick="document.getElementById('pw').innerHTML = generatePassword(10)">Generate Password with both letters and number!</button>
+<p class="pw">Your password is: <span id="pw"></span></p>
+  
+  </div>
+  </body>
+<script src="script.js"></script>
+</html>
